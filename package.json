@@ -4,8 +4,8 @@
   "description": "Learning node, express and mongodb",
   "main": "app.js",
   "scripts": {
-    "start": "SET NODE_ENV=development&&node --env-file .env.example server.js",
-    "start:prod": "SET NODE_ENV=production&&node --env-file .env.example server.js",
+    "start": "SET NODE_ENV=development&&node --env-file .env server.js",
+    "start:prod": "SET NODE_ENV=production&&node --env-file .env server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url /js",
     "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js"
   },
